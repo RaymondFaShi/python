@@ -1,0 +1,147 @@
+{
+    "root": {
+        "data": {
+            "id": "da53meikgyo0",
+            "created": 1748161753072,
+            "text": "SF(framework)",
+            "note": "设计初衷\n1.工具集合并且能历史积累\n2.如果可以使用控制器聚合工具作为基类\n3.架构上更类似微服务，但不强制使用微服务架构，引入入口，工具可以作为单独模块使用\n4.架构上不必太严苛，松散方便使用为主"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "da56mdethhs0",
+                    "created": 1748170213998,
+                    "text": "核心模块(core)"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "da56miiu6qg0",
+                            "created": 1748170225125,
+                            "text": "配置(configure)"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "da56moqbnr40",
+                            "created": 1748170238638,
+                            "text": "参数(parameter)"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "da56ms852i00",
+                            "created": 1748170246246,
+                            "text": "项目(application)"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "da56myap1w80",
+                    "created": 1748170259461,
+                    "text": "中间件(middleware)"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "da56n5trzjc0",
+                            "created": 1748170275853,
+                            "text": "请求(request)"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "da56n93bclk0",
+                            "created": 1748170282960,
+                            "text": "响应(response)"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "da56nbgllyo0",
+                            "created": 1748170288117,
+                            "text": "验证器(Validator)"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "da56ndx0no00",
+                            "created": 1748170293463,
+                            "text": "无头浏览器(headless_browser)"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "da56nfjv8s80",
+                    "created": 1748170297021,
+                    "text": "工具箱(utils)"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "da56nj2vw000",
+                            "created": 1748170304702,
+                            "text": "公共函数(common)"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "da56nm46jao0",
+                            "created": 1748170311310,
+                            "text": "针对性的工具方法"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "da56o6dt0lk0",
+                    "created": 1748170355428,
+                    "text": "控制器(controllers)"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "da56oap42pk0",
+                            "created": 1748170364819,
+                            "text": "爬虫控制器(spider)"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "da5mt70gp9c0",
+                    "created": 1748215886377,
+                    "text": "日志(logs)"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "da5mtg52vtc0",
+                    "created": 1748215906247,
+                    "text": "自动化(auto)"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
