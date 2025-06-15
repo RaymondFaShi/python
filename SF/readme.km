@@ -4,14 +4,16 @@
             "id": "da53meikgyo0",
             "created": 1748161753072,
             "text": "SF(framework)",
-            "note": "设计初衷\n1.工具集合并且能历史积累\n2.如果可以使用控制器聚合工具作为基类\n3.架构上更类似微服务，但不强制使用微服务架构，引入入口，工具可以作为单独模块使用\n4.架构上不必太严苛，松散方便使用为主"
+            "note": "设计初衷\n1.工具集合并且能历史积累\n2.如果可以使用控制器聚合工具作为基类\n3.架构上更类似微服务，但不强制使用微服务架构，引入入口，工具可以作为单独模块使用\n4.架构上不必太严苛，松散方便使用为主",
+            "expandState": "expand"
         },
         "children": [
             {
                 "data": {
                     "id": "da56mdethhs0",
                     "created": 1748170213998,
-                    "text": "核心模块(core)"
+                    "text": "核心模块(core)",
+                    "note": "核心模块处理整个系统架构的执行逻辑"
                 },
                 "children": [
                     {
@@ -26,7 +28,7 @@
                         "data": {
                             "id": "da56moqbnr40",
                             "created": 1748170238638,
-                            "text": "参数(parameter)"
+                            "text": "命令(cli)"
                         },
                         "children": []
                     },
@@ -37,6 +39,14 @@
                             "text": "项目(application)"
                         },
                         "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dag3kdjt9zs0",
+                            "created": 1749278753766,
+                            "text": "异常捕获(Exceptions)"
+                        },
+                        "children": []
                     }
                 ]
             },
@@ -44,7 +54,9 @@
                 "data": {
                     "id": "da56myap1w80",
                     "created": 1748170259461,
-                    "text": "中间件(middleware)"
+                    "text": "中间件(middleware)",
+                    "note": "中间件,就是传统意义上的中间件，在主流程之前、之中或之后插入的可复用处理逻辑”，负责对流程进行增强、过滤、代理、转换等操作",
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -62,22 +74,6 @@
                             "text": "响应(response)"
                         },
                         "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "da56nbgllyo0",
-                            "created": 1748170288117,
-                            "text": "验证器(Validator)"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "da56ndx0no00",
-                            "created": 1748170293463,
-                            "text": "无头浏览器(headless_browser)"
-                        },
-                        "children": []
                     }
                 ]
             },
@@ -85,7 +81,8 @@
                 "data": {
                     "id": "da56nfjv8s80",
                     "created": 1748170297021,
-                    "text": "工具箱(utils)"
+                    "text": "工具箱(utils)",
+                    "note": "工具箱是个人定义的一些基础函数，这些功能往往是最底层的操作，common是系统层的函数汇总"
                 },
                 "children": [
                     {
@@ -100,7 +97,7 @@
                         "data": {
                             "id": "da56nm46jao0",
                             "created": 1748170311310,
-                            "text": "针对性的工具方法"
+                            "text": "other"
                         },
                         "children": []
                     }
@@ -108,9 +105,19 @@
             },
             {
                 "data": {
+                    "id": "damu9r8c3o00",
+                    "created": 1749963451248,
+                    "text": "库(libaray)",
+                    "note": "封装的基础库"
+                },
+                "children": []
+            },
+            {
+                "data": {
                     "id": "da56o6dt0lk0",
                     "created": 1748170355428,
-                    "text": "控制器(controllers)"
+                    "text": "控制器(controllers)",
+                    "note": "基类控制器，项目用来继承"
                 },
                 "children": [
                     {
@@ -125,9 +132,38 @@
             },
             {
                 "data": {
-                    "id": "da5mt70gp9c0",
-                    "created": 1748215886377,
-                    "text": "日志(logs)"
+                    "id": "dalvoriv1vc0",
+                    "created": 1749865888500,
+                    "text": "服务(services)",
+                    "expandState": "expand",
+                    "note": "定义为功能模块，有区别于业务层的服务，业务层的服务通常定义为业务的聚合，而系统层面的服务则是系统功能的一个聚合，可能是自身功能的一个大杂烩，也有可能是使用三方功能实现的一整套逻辑"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "da56ndx0no00",
+                            "created": 1748170293463,
+                            "text": "无头浏览器(headless_browser)"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "dam3vnuumvs0",
+                    "created": 1749888997947,
+                    "text": "驱动(driver)",
+                    "note": "底层的驱动封装，比如文件操作，缓存操作"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "da56nbgllyo0",
+                    "created": 1748170288117,
+                    "text": "验证器(Validator)",
+                    "note": "验证组数据"
                 },
                 "children": []
             },
@@ -135,7 +171,17 @@
                 "data": {
                     "id": "da5mtg52vtc0",
                     "created": 1748215906247,
-                    "text": "自动化(auto)"
+                    "text": "自动化(auto)",
+                    "note": "自动化待定"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "da5mt70gp9c0",
+                    "created": 1748215886377,
+                    "text": "日志(logs)",
+                    "note": "执行日志\n1.执行时间周期\n2.执行的输入\n3.日志内容"
                 },
                 "children": []
             }
