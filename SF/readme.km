@@ -165,15 +165,6 @@
             },
             {
                 "data": {
-                    "id": "damu9r8c3o00",
-                    "created": 1749963451248,
-                    "text": "库(libaray)",
-                    "note": "封装的基础库"
-                },
-                "children": []
-            },
-            {
-                "data": {
                     "id": "da56o6dt0lk0",
                     "created": 1748170355428,
                     "text": "控制器(controllers)",
@@ -211,10 +202,10 @@
             },
             {
                 "data": {
-                    "id": "dam3vnuumvs0",
-                    "created": 1749888997947,
-                    "text": "驱动(driver)",
-                    "note": "底层的驱动封装，比如文件操作，缓存操作"
+                    "id": "damu9r8c3o00",
+                    "created": 1749963451248,
+                    "text": "库(libaray)",
+                    "note": "封装的基础库"
                 },
                 "children": []
             },
