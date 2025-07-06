@@ -22,7 +22,24 @@
                             "created": 1748170225125,
                             "text": "配置(configure)"
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dasphn6t0ps0",
+                                    "created": 1750559323552,
+                                    "text": "自动加载autoload"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "das8sqlkttk0",
+                                    "created": 1750512234113,
+                                    "text": "加载load"
+                                },
+                                "children": []
+                            }
+                        ]
                     },
                     {
                         "data": {
@@ -30,7 +47,24 @@
                             "created": 1748170238638,
                             "text": "命令(cli)"
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "db4z5z9l2000",
+                                    "created": 1751805340051,
+                                    "text": "输入input"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "db4z6270lw80",
+                                    "created": 1751805346426,
+                                    "text": "输出output"
+                                },
+                                "children": []
+                            }
+                        ]
                     },
                     {
                         "data": {
@@ -38,7 +72,24 @@
                             "created": 1748170246246,
                             "text": "项目(application)"
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "db4zhfxw8p40",
+                                    "created": 1751806238355,
+                                    "text": "加载模块loadModule"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "db501mli3nk0",
+                                    "created": 1751807820127,
+                                    "text": "执行execute"
+                                },
+                                "children": []
+                            }
+                        ]
                     },
                     {
                         "data": {
@@ -72,6 +123,15 @@
                             "id": "da56n93bclk0",
                             "created": 1748170282960,
                             "text": "响应(response)"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "da56nbgllyo0",
+                            "created": 1748170288117,
+                            "text": "验证器(Validator)",
+                            "note": "验证组数据"
                         },
                         "children": []
                     }
@@ -155,15 +215,6 @@
                     "created": 1749888997947,
                     "text": "驱动(driver)",
                     "note": "底层的驱动封装，比如文件操作，缓存操作"
-                },
-                "children": []
-            },
-            {
-                "data": {
-                    "id": "da56nbgllyo0",
-                    "created": 1748170288117,
-                    "text": "验证器(Validator)",
-                    "note": "验证组数据"
                 },
                 "children": []
             },
