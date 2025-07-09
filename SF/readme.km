@@ -226,6 +226,23 @@
                     "note": "执行日志\n1.执行时间周期\n2.执行的输入\n3.日志内容"
                 },
                 "children": []
+            },
+            {
+                "data": {
+                    "id": "db7bn9n9fu80",
+                    "created": 1752043668069,
+                    "text": "类型types"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "db7ciomlojk0",
+                            "created": 1752046129970,
+                            "text": "全局类型typing"
+                        },
+                        "children": []
+                    }
+                ]
             }
         ]
     },
