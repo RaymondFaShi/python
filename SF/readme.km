@@ -10,56 +10,24 @@
         "children": [
             {
                 "data": {
-                    "id": "dba04ug458o0",
-                    "created": 1752315872091,
-                    "text": "app实例(application)",
-                    "expandState": "expand",
-                    "layout": null
-                },
-                "children": [
-                    {
-                        "data": {
-                            "id": "db4zhfxw8p40",
-                            "created": 1751806238355,
-                            "text": "加载模块loadModule",
-                            "layout": null
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "db501mli3nk0",
-                            "created": 1751807820127,
-                            "text": "执行execute",
-                            "layout": null
-                        },
-                        "children": []
-                    }
-                ]
-            },
-            {
-                "data": {
                     "id": "da56mdethhs0",
                     "created": 1748170213998,
-                    "text": "引导(bootstrap)",
-                    "note": "核心模块处理整个系统架构的执行逻辑",
-                    "layout": null
+                    "text": "核心模块(core)",
+                    "note": "核心模块处理整个系统架构的执行逻辑"
                 },
                 "children": [
                     {
                         "data": {
                             "id": "da56miiu6qg0",
                             "created": 1748170225125,
-                            "text": "配置(configure)",
-                            "layout": null
+                            "text": "配置(configure)"
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "dasphn6t0ps0",
                                     "created": 1750559323552,
-                                    "text": "自动加载autoload",
-                                    "layout": null
+                                    "text": "自动加载autoload"
                                 },
                                 "children": []
                             },
@@ -67,8 +35,7 @@
                                 "data": {
                                     "id": "das8sqlkttk0",
                                     "created": 1750512234113,
-                                    "text": "加载load",
-                                    "layout": null
+                                    "text": "加载load"
                                 },
                                 "children": []
                             }
@@ -78,16 +45,14 @@
                         "data": {
                             "id": "da56moqbnr40",
                             "created": 1748170238638,
-                            "text": "命令(cli)",
-                            "layout": null
+                            "text": "命令(cli)"
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "db4z5z9l2000",
                                     "created": 1751805340051,
-                                    "text": "输入input",
-                                    "layout": null
+                                    "text": "输入input"
                                 },
                                 "children": []
                             },
@@ -95,8 +60,32 @@
                                 "data": {
                                     "id": "db4z6270lw80",
                                     "created": 1751805346426,
-                                    "text": "输出output",
-                                    "layout": null
+                                    "text": "输出output"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "da56ms852i00",
+                            "created": 1748170246246,
+                            "text": "项目(application)"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "db4zhfxw8p40",
+                                    "created": 1751806238355,
+                                    "text": "加载模块loadModule"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "db501mli3nk0",
+                                    "created": 1751807820127,
+                                    "text": "执行execute"
                                 },
                                 "children": []
                             }
@@ -106,8 +95,7 @@
                         "data": {
                             "id": "dag3kdjt9zs0",
                             "created": 1749278753766,
-                            "text": "异常捕获(Exceptions)",
-                            "layout": null
+                            "text": "异常捕获(Exceptions)"
                         },
                         "children": []
                     }
@@ -119,16 +107,14 @@
                     "created": 1748170259461,
                     "text": "中间件(middleware)",
                     "note": "中间件,就是传统意义上的中间件，在主流程之前、之中或之后插入的可复用处理逻辑”，负责对流程进行增强、过滤、代理、转换等操作",
-                    "expandState": "expand",
-                    "layout": null
+                    "expandState": "expand"
                 },
                 "children": [
                     {
                         "data": {
                             "id": "da56n5trzjc0",
                             "created": 1748170275853,
-                            "text": "请求(request)",
-                            "layout": null
+                            "text": "请求(request)"
                         },
                         "children": []
                     },
@@ -136,8 +122,7 @@
                         "data": {
                             "id": "da56n93bclk0",
                             "created": 1748170282960,
-                            "text": "响应(response)",
-                            "layout": null
+                            "text": "响应(response)"
                         },
                         "children": []
                     },
@@ -146,8 +131,7 @@
                             "id": "da56nbgllyo0",
                             "created": 1748170288117,
                             "text": "验证器(Validator)",
-                            "note": "验证组数据",
-                            "layout": null
+                            "note": "验证组数据"
                         },
                         "children": []
                     }
@@ -158,16 +142,14 @@
                     "id": "da56nfjv8s80",
                     "created": 1748170297021,
                     "text": "工具箱(utils)",
-                    "note": "工具箱是个人定义的一些基础函数，这些功能往往是最底层的操作，common是系统层的函数汇总",
-                    "layout": null
+                    "note": "工具箱是个人定义的一些基础函数，这些功能往往是最底层的操作，common是系统层的函数汇总"
                 },
                 "children": [
                     {
                         "data": {
                             "id": "da56nj2vw000",
                             "created": 1748170304702,
-                            "text": "公共函数(common)",
-                            "layout": null
+                            "text": "公共函数(common)"
                         },
                         "children": []
                     },
@@ -175,8 +157,7 @@
                         "data": {
                             "id": "da56nm46jao0",
                             "created": 1748170311310,
-                            "text": "other",
-                            "layout": null
+                            "text": "other"
                         },
                         "children": []
                     }
@@ -187,16 +168,14 @@
                     "id": "da56o6dt0lk0",
                     "created": 1748170355428,
                     "text": "控制器(controllers)",
-                    "note": "基类控制器，项目用来继承",
-                    "layout": null
+                    "note": "基类控制器，项目用来继承"
                 },
                 "children": [
                     {
                         "data": {
                             "id": "da56oap42pk0",
                             "created": 1748170364819,
-                            "text": "爬虫控制器(spider)",
-                            "layout": null
+                            "text": "爬虫控制器(spider)"
                         },
                         "children": []
                     }
@@ -208,16 +187,14 @@
                     "created": 1749865888500,
                     "text": "服务(services)",
                     "expandState": "expand",
-                    "note": "定义为功能模块，有区别于业务层的服务，业务层的服务通常定义为业务的聚合，而系统层面的服务则是系统功能的一个聚合，可能是自身功能的一个大杂烩，也有可能是使用三方功能实现的一整套逻辑",
-                    "layout": null
+                    "note": "定义为功能模块，有区别于业务层的服务，业务层的服务通常定义为业务的聚合，而系统层面的服务则是系统功能的一个聚合，可能是自身功能的一个大杂烩，也有可能是使用三方功能实现的一整套逻辑"
                 },
                 "children": [
                     {
                         "data": {
                             "id": "da56ndx0no00",
                             "created": 1748170293463,
-                            "text": "无头浏览器(headless_browser)",
-                            "layout": null
+                            "text": "无头浏览器(headless_browser)"
                         },
                         "children": []
                     }
@@ -228,8 +205,7 @@
                     "id": "damu9r8c3o00",
                     "created": 1749963451248,
                     "text": "库(libaray)",
-                    "note": "封装的基础库",
-                    "layout": null
+                    "note": "封装的基础库"
                 },
                 "children": []
             },
@@ -238,8 +214,7 @@
                     "id": "da5mtg52vtc0",
                     "created": 1748215906247,
                     "text": "自动化(auto)",
-                    "note": "自动化待定",
-                    "layout": null
+                    "note": "自动化待定"
                 },
                 "children": []
             },
@@ -248,8 +223,7 @@
                     "id": "da5mt70gp9c0",
                     "created": 1748215886377,
                     "text": "日志(logs)",
-                    "note": "执行日志\n1.执行时间周期\n2.执行的输入\n3.日志内容",
-                    "layout": null
+                    "note": "执行日志\n1.执行时间周期\n2.执行的输入\n3.日志内容"
                 },
                 "children": []
             },
