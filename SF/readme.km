@@ -50,7 +50,7 @@
                     "id": "da56mdethhs0",
                     "created": 1748170213998,
                     "text": "引导(bootstrap)",
-                    "note": "核心模块处理整个系统架构的执行逻辑",
+                    "note": "核心模块处理整个系统架构的执行逻辑\n注意点：各个模块不依赖其他模块配置",
                     "layout": null
                 },
                 "children": [
