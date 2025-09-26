@@ -42,6 +42,22 @@
                             "layout": null
                         },
                         "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dd2jwfmp0qo0",
+                            "created": 1758871472349,
+                            "text": "注册服务提供商registerProvider"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dd2kjp1i2340",
+                            "created": 1758873295211,
+                            "text": "设置容器实例setContainerInstance"
+                        },
+                        "children": []
                     }
                 ]
             },
@@ -94,7 +110,7 @@
                                 "data": {
                                     "id": "dd1qozjbwdc0",
                                     "created": 1758789076580,
-                                    "text": "topic"
+                                    "text": "请求模式http"
                                 },
                                 "children": []
                             }
@@ -104,7 +120,7 @@
                         "data": {
                             "id": "dd1ql1m8gqg0",
                             "created": 1758788767653,
-                            "text": "模块modules",
+                            "text": "服务提供商providers",
                             "expandState": "expand"
                         },
                         "children": [
