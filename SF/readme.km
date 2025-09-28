@@ -47,7 +47,7 @@
                         "data": {
                             "id": "dd2jwfmp0qo0",
                             "created": 1758871472349,
-                            "text": "注册服务提供商registerProvider"
+                            "text": "注册服务提供商  registerProvider"
                         },
                         "children": []
                     },
@@ -55,7 +55,7 @@
                         "data": {
                             "id": "dd2kjp1i2340",
                             "created": 1758873295211,
-                            "text": "设置容器实例setContainerInstance"
+                            "text": "设置容器实例  setContainerInstance"
                         },
                         "children": []
                     }
@@ -85,34 +85,49 @@
                                     "text": "命令模式(cli)",
                                     "layout": null
                                 },
-                                "children": [
-                                    {
-                                        "data": {
-                                            "id": "db4z5z9l2000",
-                                            "created": 1751805340051,
-                                            "text": "输入input",
-                                            "layout": null
-                                        },
-                                        "children": []
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "db4z6270lw80",
-                                            "created": 1751805346426,
-                                            "text": "输出output",
-                                            "layout": null
-                                        },
-                                        "children": []
-                                    }
-                                ]
+                                "children": []
                             },
                             {
                                 "data": {
                                     "id": "dd1qozjbwdc0",
                                     "created": 1758789076580,
-                                    "text": "请求模式http"
+                                    "text": "单例模式singleton"
                                 },
                                 "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dd49mg3h9pc0",
+                                    "created": 1759045598536,
+                                    "text": "容器接口containerInterface",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dd49ih8zijc0",
+                                            "created": 1759045287589,
+                                            "text": "$instaince 实例化接口"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dd4afkzi8wg0",
+                                            "created": 1759047881741,
+                                            "text": "设置接口"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dd49jd8y13s0",
+                                            "created": 1759045357244,
+                                            "text": "获取接口getInstance"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     },
