@@ -12,7 +12,7 @@
                 "data": {
                     "id": "dba04ug458o0",
                     "created": 1752315872091,
-                    "text": "app实例(application)",
+                    "text": "app实例application",
                     "expandState": "expand",
                     "layout": null
                 },
@@ -21,7 +21,7 @@
                         "data": {
                             "id": "dd1o1dm9zoo0",
                             "created": 1758781584274,
-                            "text": "$app app实例"
+                            "text": "$sf 服务容器"
                         },
                         "children": []
                     },
@@ -29,7 +29,7 @@
                         "data": {
                             "id": "db4zhfxw8p40",
                             "created": 1751806238355,
-                            "text": "$mode运行模式",
+                            "text": "$mode 运行模式",
                             "layout": null
                         },
                         "children": []
@@ -65,7 +65,7 @@
                 "data": {
                     "id": "da56mdethhs0",
                     "created": 1748170213998,
-                    "text": "引导(bootstrap)",
+                    "text": "引导bootstrap",
                     "note": "核心模块处理整个系统架构的执行逻辑\n注意点：\n1.各个模块不依赖其他模块配置\n",
                     "layout": null
                 },
@@ -192,7 +192,7 @@
                 "data": {
                     "id": "da56myap1w80",
                     "created": 1748170259461,
-                    "text": "中间件(middleware)",
+                    "text": "中间件middleware",
                     "note": "中间件,就是传统意义上的中间件，在主流程之前、之中或之后插入的可复用处理逻辑”，负责对流程进行增强、过滤、代理、转换等操作",
                     "expandState": "expand",
                     "layout": null
@@ -232,7 +232,15 @@
                 "data": {
                     "id": "dc70manve0w0",
                     "created": 1755668718149,
-                    "text": "路由(router)"
+                    "text": "路由router"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "dd4y7stgpm80",
+                    "created": 1759114978514,
+                    "text": "控制台console"
                 },
                 "children": []
             },
@@ -240,7 +248,7 @@
                 "data": {
                     "id": "da56o6dt0lk0",
                     "created": 1748170355428,
-                    "text": "控制器(controllers)",
+                    "text": "控制器controllers",
                     "note": "基类控制器，项目用来继承",
                     "layout": null
                 },
@@ -249,7 +257,7 @@
                         "data": {
                             "id": "da56oap42pk0",
                             "created": 1748170364819,
-                            "text": "爬虫控制器(spider)",
+                            "text": "爬虫控制器spider",
                             "layout": null
                         },
                         "children": []
@@ -260,7 +268,7 @@
                 "data": {
                     "id": "dalvoriv1vc0",
                     "created": 1749865888500,
-                    "text": "服务(services)",
+                    "text": "服务services",
                     "expandState": "expand",
                     "note": "定义为功能模块，有区别于业务层的服务，业务层的服务通常定义为业务的聚合，而系统层面的服务则是系统功能的一个聚合，可能是自身功能的一个大杂烩，也有可能是使用三方功能实现的一整套逻辑",
                     "layout": null
@@ -270,7 +278,7 @@
                         "data": {
                             "id": "da56ndx0no00",
                             "created": 1748170293463,
-                            "text": "无头浏览器(headless_browser)",
+                            "text": "无头浏览器headless_browser",
                             "layout": null
                         },
                         "children": []
@@ -281,7 +289,7 @@
                 "data": {
                     "id": "da56nfjv8s80",
                     "created": 1748170297021,
-                    "text": "工具箱(utils)",
+                    "text": "工具箱utils",
                     "note": "工具箱是个人定义的一些基础函数，这些功能往往是最底层的操作，common是系统层的函数汇总",
                     "layout": null
                 },
@@ -290,7 +298,7 @@
                         "data": {
                             "id": "da56nj2vw000",
                             "created": 1748170304702,
-                            "text": "公共函数(common)",
+                            "text": "公共函数common",
                             "layout": null
                         },
                         "children": []
@@ -299,7 +307,7 @@
                         "data": {
                             "id": "da56nm46jao0",
                             "created": 1748170311310,
-                            "text": "other",
+                            "text": "科学计算sciCompute",
                             "layout": null
                         },
                         "children": []
@@ -310,7 +318,7 @@
                 "data": {
                     "id": "damu9r8c3o00",
                     "created": 1749963451248,
-                    "text": "库(libaray)",
+                    "text": "库libaray",
                     "note": "封装的基础库",
                     "layout": null
                 },
@@ -320,7 +328,7 @@
                 "data": {
                     "id": "da5mtg52vtc0",
                     "created": 1748215906247,
-                    "text": "自动化(auto)",
+                    "text": "自动化auto",
                     "note": "自动化待定",
                     "layout": null
                 },
@@ -330,7 +338,7 @@
                 "data": {
                     "id": "da5mt70gp9c0",
                     "created": 1748215886377,
-                    "text": "日志(logs)",
+                    "text": "日志logs",
                     "note": "执行日志\n1.执行时间周期\n2.执行的输入\n3.日志内容",
                     "layout": null
                 },
@@ -340,7 +348,7 @@
                 "data": {
                     "id": "dbtenf0mr340",
                     "created": 1754286462137,
-                    "text": "常量(constants)",
+                    "text": "常量constants",
                     "note": "常量集合"
                 },
                 "children": []
@@ -349,8 +357,20 @@
                 "data": {
                     "id": "dbteo6oe4fs0",
                     "created": 1754286522347,
-                    "text": "类型(types)",
+                    "text": "类型types",
                     "note": "类型集合"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "dd56350ap1s0",
+                    "created": 1759137182107,
+                    "text": "服务容器SF",
+                    "layout_right_offset": {
+                        "x": -6,
+                        "y": -1350
+                    }
                 },
                 "children": []
             }
