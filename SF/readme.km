@@ -113,14 +113,6 @@
                                     },
                                     {
                                         "data": {
-                                            "id": "dd4afkzi8wg0",
-                                            "created": 1759047881741,
-                                            "text": "设置接口"
-                                        },
-                                        "children": []
-                                    },
-                                    {
-                                        "data": {
                                             "id": "dd49jd8y13s0",
                                             "created": 1759045357244,
                                             "text": "获取接口getInstance"
@@ -371,7 +363,32 @@
                     "text": "类型types",
                     "note": "类型集合"
                 },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "denbolju2nc0",
+                            "created": 1764637206974,
+                            "text": "types额外类型"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "denbq4bbaq80",
+                            "created": 1764637326182,
+                            "text": "global重构类型"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "denbqbb3fg80",
+                            "created": 1764637341406,
+                            "text": "router路由类型"
+                        },
+                        "children": []
+                    }
+                ]
             },
             {
                 "data": {
