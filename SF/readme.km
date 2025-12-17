@@ -10,52 +10,36 @@
         "children": [
             {
                 "data": {
-                    "id": "dba04ug458o0",
-                    "created": 1752315872091,
-                    "text": "app实例application",
-                    "expandState": "expand",
-                    "layout": null
+                    "id": "dd56350ap1s0",
+                    "created": 1759137182107,
+                    "text": "服务容器SF",
+                    "layout_right_offset": {
+                        "x": -6,
+                        "y": -1350
+                    }
                 },
                 "children": [
                     {
                         "data": {
-                            "id": "dd1o1dm9zoo0",
-                            "created": 1758781584274,
-                            "text": "$sf 服务容器"
+                            "id": "df09di0d2qo0",
+                            "created": 1765950974477,
+                            "text": "SF 定义sf框架"
                         },
                         "children": []
                     },
                     {
                         "data": {
-                            "id": "db4zhfxw8p40",
-                            "created": 1751806238355,
-                            "text": "$mode 运行模式",
-                            "layout": null
+                            "id": "df09dq2x8yw0",
+                            "created": 1765950992046,
+                            "text": "VERSION 框架版本"
                         },
                         "children": []
                     },
                     {
                         "data": {
-                            "id": "db501mli3nk0",
-                            "created": 1751807820127,
-                            "text": "执行execute",
-                            "layout": null
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "dd2jwfmp0qo0",
-                            "created": 1758871472349,
-                            "text": "注册服务提供商  registerProvider"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "dd2kjp1i2340",
-                            "created": 1758873295211,
-                            "text": "设置容器实例  setContainerInstance"
+                            "id": "df09hxjcx3k0",
+                            "created": 1765951321734,
+                            "text": "MODE 运行模式"
                         },
                         "children": []
                     }
@@ -67,7 +51,8 @@
                     "created": 1748170213998,
                     "text": "引导bootstrap",
                     "note": "核心模块处理整个系统架构的执行逻辑\n注意点：\n1.各个模块不依赖其他模块配置\n",
-                    "layout": null
+                    "layout": null,
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -182,15 +167,73 @@
             },
             {
                 "data": {
-                    "id": "dd56350ap1s0",
-                    "created": 1759137182107,
-                    "text": "服务容器SF",
-                    "layout_right_offset": {
-                        "x": -6,
-                        "y": -1350
-                    }
+                    "id": "dba04ug458o0",
+                    "created": 1752315872091,
+                    "text": "项目实例app",
+                    "expandState": "expand",
+                    "layout": null,
+                    "note": "项目实例\n1.原则上不依赖三方插件\n"
                 },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "dd1o1dm9zoo0",
+                            "created": 1758781584274,
+                            "text": "$sf 服务容器"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "db4zhfxw8p40",
+                            "created": 1751806238355,
+                            "text": "$mode 运行模式",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "df0966evrbk0",
+                            "created": 1765950400685,
+                            "text": "$rootPath 根路径"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "df096gxbp2w0",
+                            "created": 1765950423568,
+                            "text": "$appPath 应用路径"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "db501mli3nk0",
+                            "created": 1751807820127,
+                            "text": "执行execute",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dd2jwfmp0qo0",
+                            "created": 1758871472349,
+                            "text": "注册服务提供商  registerProvider"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dd2kjp1i2340",
+                            "created": 1758873295211,
+                            "text": "设置容器实例  setContainerInstance"
+                        },
+                        "children": []
+                    }
+                ]
             },
             {
                 "data": {
@@ -206,7 +249,7 @@
                         "data": {
                             "id": "da56n5trzjc0",
                             "created": 1748170275853,
-                            "text": "请求(request)",
+                            "text": "请求 request",
                             "layout": null
                         },
                         "children": []
@@ -215,7 +258,7 @@
                         "data": {
                             "id": "da56n93bclk0",
                             "created": 1748170282960,
-                            "text": "响应(response)",
+                            "text": "响应 response",
                             "layout": null
                         },
                         "children": []
@@ -224,7 +267,7 @@
                         "data": {
                             "id": "da56nbgllyo0",
                             "created": 1748170288117,
-                            "text": "验证器(Validator)",
+                            "text": "验证器 validator",
                             "note": "验证组数据",
                             "layout": null
                         },
