@@ -1,0 +1,121 @@
+{
+    "root": {
+        "data": {
+            "id": "df4idw8dc9c0",
+            "created": 1766382635252,
+            "text": "谷歌采集项目"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "df59aajkvlc0",
+                    "created": 1766458522916,
+                    "text": "关键词A",
+                    "layout_mind_offset": {
+                        "x": 248,
+                        "y": 78
+                    },
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "df59a1e5v800",
+                    "created": 1766458502997,
+                    "text": "关键词B",
+                    "layout_mind_offset": {
+                        "x": -370,
+                        "y": 75
+                    },
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "df59assfz2w0",
+                            "created": 1766458562634,
+                            "text": "日期2025-12-22",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "df59b725hxk0",
+                                    "created": 1766458593696,
+                                    "text": "1:00",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "df59bzvmzl40",
+                                            "created": 1766458656429,
+                                            "text": "data.db\n采集脚本获取数据信息记录",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "df59d2zff7k0",
+                                            "created": 1766458741552,
+                                            "text": "screen.png\n采集页面截图"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "df59dexnj740",
+                                            "created": 1766458767566,
+                                            "text": "content.txt\n可能存在的大文本数据"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "df59e2h54mo0",
+                                            "created": 1766458818811,
+                                            "text": "其他附件"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "df59bwfnjzc0",
+                                    "created": 1766458648932,
+                                    "text": "1:15",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "df59b4ofcgw0",
+                            "created": 1766458588512,
+                            "text": "日期2025-12-23",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "df59ankawfk0",
+                    "created": 1766458551258,
+                    "text": "...更多关键词",
+                    "layout": null
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "structure",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
