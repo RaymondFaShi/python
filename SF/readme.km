@@ -393,7 +393,8 @@
                         "data": {
                             "id": "de5h2m98b1s0",
                             "created": 1762824331937,
-                            "text": "theme主题"
+                            "text": "theme主题",
+                            "note": "color：\n\tdark 暗黑\n    light 明亮\n   \t-background\n    -color\nfont:\n\tios \n    android \n    web\n    默认system-ui\ndevice:\n\tpc \n    pad \n    phone"
                         },
                         "children": []
                     }
@@ -448,6 +449,31 @@
                     "id": "ddcuz69bom80",
                     "created": 1759918318817,
                     "text": "国际化i18n"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "df693ttipxc0",
+                            "created": 1766559576283,
+                            "text": "zhCn 简体中文"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "df6zfloe1ug0",
+                    "created": 1766633847786,
+                    "text": "静态资源assets"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "df71i2t1sns0",
+                    "created": 1766639684022,
+                    "text": "样式styles"
                 },
                 "children": []
             }
