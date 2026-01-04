@@ -428,7 +428,8 @@
                         "data": {
                             "id": "denbqbb3fg80",
                             "created": 1764637341406,
-                            "text": "router路由类型"
+                            "text": "router路由类型",
+                            "note": "declare namespace Router {\n    namespace Root {\n        interface Route {\n            name: string;   // 名字\n            label: string;  // 标签\n            path: Href;   // 路径\n            redirect?: string;  // 重定向\n            disabled?: boolean; // 是否禁用\n            hidden?: boolean; // 是否隐藏\n            icon?: string;  // 图标\n            focusedIcon?: string;   // 焦点图标\n            children?: Route[]; // 子路由\n            meta?: MetaRoute | Record<any>;  // 业务级元数据\n        }\n\n        interface MetaRoute {\n            title?: string, // 标题\n            icon?: any, // icon\n            cache?: boolean,  // 缓存\n            roles: string[],    // 所属角色\n        }\n    }\n}\n"
                         },
                         "children": []
                     }
