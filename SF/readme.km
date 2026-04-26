@@ -14,8 +14,8 @@
                     "created": 1759137182107,
                     "text": "服务容器SF",
                     "layout_right_offset": {
-                        "x": -6,
-                        "y": -1350
+                        "x": -13.499999888241234,
+                        "y": 18.74997960403607
                     }
                 },
                 "children": [
@@ -432,6 +432,14 @@
                             "note": "declare namespace Router {\n    namespace Root {\n        interface Route {\n            name: string;   // 名字\n            label: string;  // 标签\n            path: Href;   // 路径\n            redirect?: string;  // 重定向\n            disabled?: boolean; // 是否禁用\n            hidden?: boolean; // 是否隐藏\n            icon?: string;  // 图标\n            focusedIcon?: string;   // 焦点图标\n            children?: Route[]; // 子路由\n            meta?: MetaRoute | Record<any>;  // 业务级元数据\n        }\n\n        interface MetaRoute {\n            title?: string, // 标题\n            icon?: any, // icon\n            cache?: boolean,  // 缓存\n            roles: string[],    // 所属角色\n        }\n    }\n}\n"
                         },
                         "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "di2soz6m6000",
+                            "created": 1777177070188,
+                            "text": "response响应"
+                        },
+                        "children": []
                     }
                 ]
             },
@@ -477,10 +485,27 @@
                     "text": "样式styles"
                 },
                 "children": []
+            },
+            {
+                "data": {
+                    "id": "di2sc50eqw80",
+                    "created": 1777176064140,
+                    "text": "视图views"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "di2se2bn2cg0",
+                            "created": 1777176215017,
+                            "text": "布局layout"
+                        },
+                        "children": []
+                    }
+                ]
             }
         ]
     },
-    "template": "filetree",
+    "template": "right",
     "theme": "fresh-blue",
     "version": "1.4.43"
 }
