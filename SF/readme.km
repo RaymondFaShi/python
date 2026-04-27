@@ -13,17 +13,17 @@
                     "id": "dd56350ap1s0",
                     "created": 1759137182107,
                     "text": "服务容器SF",
-                    "layout_right_offset": {
-                        "x": -13.499999888241234,
-                        "y": 18.74997960403607
-                    }
+                    "expandState": "expand",
+                    "layout": null
                 },
                 "children": [
                     {
                         "data": {
                             "id": "df09di0d2qo0",
                             "created": 1765950974477,
-                            "text": "SF 定义sf框架"
+                            "text": "SF 定义sf框架",
+                            "expandState": "expand",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -31,7 +31,9 @@
                         "data": {
                             "id": "df09dq2x8yw0",
                             "created": 1765950992046,
-                            "text": "VERSION 框架版本"
+                            "text": "VERSION 框架版本",
+                            "expandState": "expand",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -39,7 +41,9 @@
                         "data": {
                             "id": "df09hxjcx3k0",
                             "created": 1765951321734,
-                            "text": "MODE 运行模式"
+                            "text": "MODE 运行模式",
+                            "expandState": "expand",
+                            "layout": null
                         },
                         "children": []
                     }
@@ -60,7 +64,8 @@
                             "id": "dd1qg5150so0",
                             "created": 1758788383263,
                             "text": "容器container",
-                            "expandState": "expand"
+                            "expandState": "expand",
+                            "layout": null
                         },
                         "children": [
                             {
@@ -68,7 +73,8 @@
                                     "id": "da56moqbnr40",
                                     "created": 1748170238638,
                                     "text": "命令模式(cli)",
-                                    "layout": null
+                                    "layout": null,
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -76,7 +82,9 @@
                                 "data": {
                                     "id": "dd1qozjbwdc0",
                                     "created": 1758789076580,
-                                    "text": "单例模式singleton"
+                                    "text": "单例模式singleton",
+                                    "expandState": "expand",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -85,14 +93,17 @@
                                     "id": "dd49mg3h9pc0",
                                     "created": 1759045598536,
                                     "text": "容器接口containerInterface",
-                                    "expandState": "expand"
+                                    "expandState": "expand",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "dd49ih8zijc0",
                                             "created": 1759045287589,
-                                            "text": "$instaince 实例化接口"
+                                            "text": "$instaince 实例化接口",
+                                            "expandState": "expand",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -100,7 +111,9 @@
                                         "data": {
                                             "id": "dd49jd8y13s0",
                                             "created": 1759045357244,
-                                            "text": "获取接口getInstance"
+                                            "text": "获取接口getInstance",
+                                            "expandState": "expand",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -113,7 +126,8 @@
                             "id": "dd1ql1m8gqg0",
                             "created": 1758788767653,
                             "text": "服务提供商providers",
-                            "expandState": "expand"
+                            "expandState": "expand",
+                            "layout": null
                         },
                         "children": [
                             {
@@ -121,7 +135,8 @@
                                     "id": "da56miiu6qg0",
                                     "created": 1748170225125,
                                     "text": "配置(configure)",
-                                    "layout": null
+                                    "layout": null,
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -129,7 +144,8 @@
                                             "id": "dasphn6t0ps0",
                                             "created": 1750559323552,
                                             "text": "自动加载autoload",
-                                            "layout": null
+                                            "layout": null,
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -138,7 +154,8 @@
                                             "id": "das8sqlkttk0",
                                             "created": 1750512234113,
                                             "text": "加载load",
-                                            "layout": null
+                                            "layout": null,
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -148,7 +165,9 @@
                                 "data": {
                                     "id": "dd1ruem0p3s0",
                                     "created": 1758792322325,
-                                    "text": "topic"
+                                    "text": "topic",
+                                    "expandState": "expand",
+                                    "layout": null
                                 },
                                 "children": []
                             }
@@ -159,7 +178,8 @@
                             "id": "dag3kdjt9zs0",
                             "created": 1749278753766,
                             "text": "异常捕获(Exceptions)",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "expand"
                         },
                         "children": []
                     }
@@ -179,7 +199,9 @@
                         "data": {
                             "id": "dd1o1dm9zoo0",
                             "created": 1758781584274,
-                            "text": "$sf 服务容器"
+                            "text": "$sf 服务容器",
+                            "expandState": "expand",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -188,7 +210,8 @@
                             "id": "db4zhfxw8p40",
                             "created": 1751806238355,
                             "text": "$mode 运行模式",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "expand"
                         },
                         "children": []
                     },
@@ -196,7 +219,9 @@
                         "data": {
                             "id": "df0966evrbk0",
                             "created": 1765950400685,
-                            "text": "$rootPath 根路径"
+                            "text": "$rootPath 根路径",
+                            "expandState": "expand",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -204,7 +229,9 @@
                         "data": {
                             "id": "df096gxbp2w0",
                             "created": 1765950423568,
-                            "text": "$appPath 应用路径"
+                            "text": "$appPath 应用路径",
+                            "expandState": "expand",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -213,7 +240,8 @@
                             "id": "db501mli3nk0",
                             "created": 1751807820127,
                             "text": "执行execute",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "expand"
                         },
                         "children": []
                     },
@@ -221,7 +249,9 @@
                         "data": {
                             "id": "dd2jwfmp0qo0",
                             "created": 1758871472349,
-                            "text": "注册服务提供商  registerProvider"
+                            "text": "注册服务提供商  registerProvider",
+                            "expandState": "expand",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -229,7 +259,9 @@
                         "data": {
                             "id": "dd2kjp1i2340",
                             "created": 1758873295211,
-                            "text": "设置容器实例  setContainerInstance"
+                            "text": "设置容器实例  setContainerInstance",
+                            "expandState": "expand",
+                            "layout": null
                         },
                         "children": []
                     }
@@ -250,7 +282,8 @@
                             "id": "da56n5trzjc0",
                             "created": 1748170275853,
                             "text": "请求 request",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "expand"
                         },
                         "children": []
                     },
@@ -259,7 +292,8 @@
                             "id": "da56n93bclk0",
                             "created": 1748170282960,
                             "text": "响应 response",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "expand"
                         },
                         "children": []
                     },
@@ -269,7 +303,8 @@
                             "created": 1748170288117,
                             "text": "验证器 validator",
                             "note": "验证组数据",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "expand"
                         },
                         "children": []
                     }
@@ -279,7 +314,9 @@
                 "data": {
                     "id": "dc70manve0w0",
                     "created": 1755668718149,
-                    "text": "路由router"
+                    "text": "路由router",
+                    "expandState": "expand",
+                    "layout": null
                 },
                 "children": []
             },
@@ -287,7 +324,9 @@
                 "data": {
                     "id": "dd4y7stgpm80",
                     "created": 1759114978514,
-                    "text": "控制台console"
+                    "text": "控制台console",
+                    "expandState": "expand",
+                    "layout": null
                 },
                 "children": []
             },
@@ -297,19 +336,10 @@
                     "created": 1748170355428,
                     "text": "控制器controllers",
                     "note": "基类控制器，项目用来继承",
-                    "layout": null
+                    "layout": null,
+                    "expandState": "expand"
                 },
-                "children": [
-                    {
-                        "data": {
-                            "id": "da56oap42pk0",
-                            "created": 1748170364819,
-                            "text": "爬虫控制器spider",
-                            "layout": null
-                        },
-                        "children": []
-                    }
-                ]
+                "children": []
             },
             {
                 "data": {
@@ -326,7 +356,8 @@
                             "id": "da56ndx0no00",
                             "created": 1748170293463,
                             "text": "无头浏览器headlessBrowser",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "expand"
                         },
                         "children": []
                     }
@@ -338,15 +369,25 @@
                     "created": 1748170297021,
                     "text": "工具箱utils",
                     "note": "工具箱是个人定义的一些基础函数，这些功能往往是最底层的操作，common是系统层的函数汇总",
-                    "layout": null
+                    "layout": null,
+                    "expandState": "expand"
                 },
                 "children": [
+                    {
+                        "data": {
+                            "id": "di2uxb32ms00",
+                            "created": 1777183365229,
+                            "text": "全局函数global"
+                        },
+                        "children": []
+                    },
                     {
                         "data": {
                             "id": "da56nj2vw000",
                             "created": 1748170304702,
                             "text": "公共函数common",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "expand"
                         },
                         "children": []
                     },
@@ -355,7 +396,8 @@
                             "id": "da56nm46jao0",
                             "created": 1748170311310,
                             "text": "科学计算sciCompute",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "expand"
                         },
                         "children": []
                     }
@@ -367,7 +409,8 @@
                     "created": 1749963451248,
                     "text": "库libaray",
                     "note": "封装的基础库",
-                    "layout": null
+                    "layout": null,
+                    "expandState": "expand"
                 },
                 "children": []
             },
@@ -377,7 +420,8 @@
                     "created": 1748215886377,
                     "text": "日志logs",
                     "note": "执行日志\n1.执行时间周期\n2.执行的输入\n3.日志内容",
-                    "layout": null
+                    "layout": null,
+                    "expandState": "expand"
                 },
                 "children": []
             },
@@ -386,7 +430,9 @@
                     "id": "dbtenf0mr340",
                     "created": 1754286462137,
                     "text": "常量constants",
-                    "note": "常量集合"
+                    "note": "常量集合",
+                    "expandState": "expand",
+                    "layout": null
                 },
                 "children": [
                     {
@@ -394,7 +440,9 @@
                             "id": "de5h2m98b1s0",
                             "created": 1762824331937,
                             "text": "theme主题",
-                            "note": "color：\n\tdark 暗黑\n    light 明亮\n   \t-background\n    -color\nfont:\n\tios \n    android \n    web\n    默认system-ui\ndevice:\n\tpc \n    pad \n    phone"
+                            "note": "color：\n\tdark 暗黑\n    light 明亮\n   \t-background\n    -color\nfont:\n\tios \n    android \n    web\n    默认system-ui\ndevice:\n\tpc \n    pad \n    phone",
+                            "expandState": "expand",
+                            "layout": null
                         },
                         "children": []
                     }
@@ -405,14 +453,18 @@
                     "id": "dbteo6oe4fs0",
                     "created": 1754286522347,
                     "text": "类型types",
-                    "note": "类型集合"
+                    "note": "类型集合",
+                    "expandState": "expand",
+                    "layout": null
                 },
                 "children": [
                     {
                         "data": {
                             "id": "denbolju2nc0",
                             "created": 1764637206974,
-                            "text": "types额外类型"
+                            "text": "types额外类型",
+                            "expandState": "expand",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -420,7 +472,9 @@
                         "data": {
                             "id": "denbq4bbaq80",
                             "created": 1764637326182,
-                            "text": "global重构类型"
+                            "text": "global重构类型",
+                            "expandState": "expand",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -429,7 +483,9 @@
                             "id": "denbqbb3fg80",
                             "created": 1764637341406,
                             "text": "router路由类型",
-                            "note": "declare namespace Router {\n    namespace Root {\n        interface Route {\n            name: string;   // 名字\n            label: string;  // 标签\n            path: Href;   // 路径\n            redirect?: string;  // 重定向\n            disabled?: boolean; // 是否禁用\n            hidden?: boolean; // 是否隐藏\n            icon?: string;  // 图标\n            focusedIcon?: string;   // 焦点图标\n            children?: Route[]; // 子路由\n            meta?: MetaRoute | Record<any>;  // 业务级元数据\n        }\n\n        interface MetaRoute {\n            title?: string, // 标题\n            icon?: any, // icon\n            cache?: boolean,  // 缓存\n            roles: string[],    // 所属角色\n        }\n    }\n}\n"
+                            "note": "declare namespace Router {\n    namespace Root {\n        interface Route {\n            name: string;   // 名字\n            label: string;  // 标签\n            path: Href;   // 路径\n            redirect?: string;  // 重定向\n            disabled?: boolean; // 是否禁用\n            hidden?: boolean; // 是否隐藏\n            icon?: string;  // 图标\n            focusedIcon?: string;   // 焦点图标\n            children?: Route[]; // 子路由\n            meta?: MetaRoute | Record<any>;  // 业务级元数据\n        }\n\n        interface MetaRoute {\n            title?: string, // 标题\n            icon?: any, // icon\n            cache?: boolean,  // 缓存\n            roles: string[],    // 所属角色\n        }\n    }\n}\n",
+                            "expandState": "expand",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -437,7 +493,9 @@
                         "data": {
                             "id": "di2soz6m6000",
                             "created": 1777177070188,
-                            "text": "response响应"
+                            "text": "response响应",
+                            "expandState": "expand",
+                            "layout": null
                         },
                         "children": []
                     }
@@ -449,7 +507,8 @@
                     "created": 1748215906247,
                     "text": "自动化auto",
                     "note": "自动化待定",
-                    "layout": null
+                    "layout": null,
+                    "expandState": "expand"
                 },
                 "children": []
             },
@@ -457,14 +516,18 @@
                 "data": {
                     "id": "ddcuz69bom80",
                     "created": 1759918318817,
-                    "text": "国际化i18n"
+                    "text": "国际化i18n",
+                    "expandState": "expand",
+                    "layout": null
                 },
                 "children": [
                     {
                         "data": {
                             "id": "df693ttipxc0",
                             "created": 1766559576283,
-                            "text": "zhCn 简体中文"
+                            "text": "zhCn 简体中文",
+                            "expandState": "expand",
+                            "layout": null
                         },
                         "children": []
                     }
@@ -474,7 +537,9 @@
                 "data": {
                     "id": "df6zfloe1ug0",
                     "created": 1766633847786,
-                    "text": "静态资源assets"
+                    "text": "静态资源assets",
+                    "expandState": "expand",
+                    "layout": null
                 },
                 "children": []
             },
@@ -482,7 +547,9 @@
                 "data": {
                     "id": "df71i2t1sns0",
                     "created": 1766639684022,
-                    "text": "样式styles"
+                    "text": "样式styles",
+                    "expandState": "expand",
+                    "layout": null
                 },
                 "children": []
             },
@@ -490,14 +557,18 @@
                 "data": {
                     "id": "di2sc50eqw80",
                     "created": 1777176064140,
-                    "text": "视图views"
+                    "text": "视图views",
+                    "expandState": "expand",
+                    "layout": null
                 },
                 "children": [
                     {
                         "data": {
                             "id": "di2se2bn2cg0",
                             "created": 1777176215017,
-                            "text": "布局layout"
+                            "text": "布局layout",
+                            "expandState": "expand",
+                            "layout": null
                         },
                         "children": []
                     }
