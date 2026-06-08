@@ -365,68 +365,6 @@
             },
             {
                 "data": {
-                    "id": "da56nfjv8s80",
-                    "created": 1748170297021,
-                    "text": "工具箱utils",
-                    "note": "工具箱是个人定义的一些基础函数，这些功能往往是最底层的操作，common是系统层的函数汇总",
-                    "layout": null,
-                    "expandState": "expand"
-                },
-                "children": [
-                    {
-                        "data": {
-                            "id": "di2uxb32ms00",
-                            "created": 1777183365229,
-                            "text": "全局函数global"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "da56nj2vw000",
-                            "created": 1748170304702,
-                            "text": "公共函数common",
-                            "layout": null,
-                            "expandState": "expand"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "da56nm46jao0",
-                            "created": 1748170311310,
-                            "text": "科学计算sciCompute",
-                            "layout": null,
-                            "expandState": "expand"
-                        },
-                        "children": []
-                    }
-                ]
-            },
-            {
-                "data": {
-                    "id": "damu9r8c3o00",
-                    "created": 1749963451248,
-                    "text": "库libaray",
-                    "note": "封装的基础库",
-                    "layout": null,
-                    "expandState": "expand"
-                },
-                "children": []
-            },
-            {
-                "data": {
-                    "id": "da5mt70gp9c0",
-                    "created": 1748215886377,
-                    "text": "日志logs",
-                    "note": "执行日志\n1.执行时间周期\n2.执行的输入\n3.日志内容",
-                    "layout": null,
-                    "expandState": "expand"
-                },
-                "children": []
-            },
-            {
-                "data": {
                     "id": "dbtenf0mr340",
                     "created": 1754286462137,
                     "text": "常量constants",
@@ -503,12 +441,93 @@
             },
             {
                 "data": {
-                    "id": "da5mtg52vtc0",
-                    "created": 1748215906247,
-                    "text": "自动化auto",
-                    "note": "自动化待定",
+                    "id": "df6zfloe1ug0",
+                    "created": 1766633847786,
+                    "text": "静态资源assets",
+                    "expandState": "expand",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "da56nfjv8s80",
+                    "created": 1748170297021,
+                    "text": "工具箱utils",
+                    "note": "工具箱是个人定义的一些基础函数，这些功能往往是最底层的操作，common是系统层的函数汇总",
                     "layout": null,
                     "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "di2uxb32ms00",
+                            "created": 1777183365229,
+                            "text": "全局函数global"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "da56nj2vw000",
+                            "created": 1748170304702,
+                            "text": "公共函数common",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "da56nm46jao0",
+                            "created": 1748170311310,
+                            "text": "科学计算sciCompute",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "damu9r8c3o00",
+                    "created": 1749963451248,
+                    "text": "库libaray",
+                    "note": "封装的基础库",
+                    "layout": null,
+                    "expandState": "expand"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "di2sc50eqw80",
+                    "created": 1777176064140,
+                    "text": "视图views",
+                    "expandState": "expand",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "di2se2bn2cg0",
+                            "created": 1777176215017,
+                            "text": "布局layout",
+                            "expandState": "expand",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "df71i2t1sns0",
+                    "created": 1766639684022,
+                    "text": "样式styles",
+                    "expandState": "expand",
+                    "layout": null
                 },
                 "children": []
             },
@@ -535,48 +554,37 @@
             },
             {
                 "data": {
-                    "id": "df6zfloe1ug0",
-                    "created": 1766633847786,
-                    "text": "静态资源assets",
-                    "expandState": "expand",
-                    "layout": null
+                    "id": "da5mtg52vtc0",
+                    "created": 1748215906247,
+                    "text": "自动化auto",
+                    "note": "自动化待定",
+                    "layout": null,
+                    "expandState": "expand"
                 },
                 "children": []
             },
             {
                 "data": {
-                    "id": "df71i2t1sns0",
-                    "created": 1766639684022,
-                    "text": "样式styles",
-                    "expandState": "expand",
-                    "layout": null
+                    "id": "da5mt70gp9c0",
+                    "created": 1748215886377,
+                    "text": "日志logs",
+                    "note": "执行日志\n1.执行时间周期\n2.执行的输入\n3.日志内容",
+                    "layout": null,
+                    "expandState": "expand"
                 },
                 "children": []
             },
             {
                 "data": {
-                    "id": "di2sc50eqw80",
-                    "created": 1777176064140,
-                    "text": "视图views",
-                    "expandState": "expand",
-                    "layout": null
+                    "id": "divvchrqxe00",
+                    "created": 1780129793987,
+                    "text": "public/dist编译目录"
                 },
-                "children": [
-                    {
-                        "data": {
-                            "id": "di2se2bn2cg0",
-                            "created": 1777176215017,
-                            "text": "布局layout",
-                            "expandState": "expand",
-                            "layout": null
-                        },
-                        "children": []
-                    }
-                ]
+                "children": []
             }
         ]
     },
-    "template": "right",
+    "template": "filetree",
     "theme": "fresh-blue",
     "version": "1.4.43"
 }
