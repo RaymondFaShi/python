@@ -441,16 +441,6 @@
             },
             {
                 "data": {
-                    "id": "df6zfloe1ug0",
-                    "created": 1766633847786,
-                    "text": "静态资源assets",
-                    "expandState": "expand",
-                    "layout": null
-                },
-                "children": []
-            },
-            {
-                "data": {
                     "id": "da56nfjv8s80",
                     "created": 1748170297021,
                     "text": "工具箱utils",
@@ -578,13 +568,33 @@
                 "data": {
                     "id": "divvchrqxe00",
                     "created": 1780129793987,
-                    "text": "public/dist编译目录"
+                    "text": "dist编译目录"
                 },
                 "children": []
+            },
+            {
+                "data": {
+                    "id": "djgxb6gj3bs0",
+                    "created": 1782268092310,
+                    "text": "public公共目录",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "df6zfloe1ug0",
+                            "created": 1766633847786,
+                            "text": "静态资源assets",
+                            "expandState": "expand",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
             }
         ]
     },
-    "template": "filetree",
+    "template": "default",
     "theme": "fresh-blue",
     "version": "1.4.43"
 }
