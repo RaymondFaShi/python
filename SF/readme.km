@@ -312,56 +312,14 @@
             },
             {
                 "data": {
-                    "id": "dc70manve0w0",
-                    "created": 1755668718149,
-                    "text": "路由router",
-                    "expandState": "expand",
-                    "layout": null
-                },
-                "children": []
-            },
-            {
-                "data": {
-                    "id": "dd4y7stgpm80",
-                    "created": 1759114978514,
-                    "text": "控制台console",
-                    "expandState": "expand",
-                    "layout": null
-                },
-                "children": []
-            },
-            {
-                "data": {
-                    "id": "da56o6dt0lk0",
-                    "created": 1748170355428,
-                    "text": "控制器controllers",
-                    "note": "基类控制器，项目用来继承",
+                    "id": "damu9r8c3o00",
+                    "created": 1749963451248,
+                    "text": "库libaray",
+                    "note": "封装的基础库",
                     "layout": null,
                     "expandState": "expand"
                 },
                 "children": []
-            },
-            {
-                "data": {
-                    "id": "dalvoriv1vc0",
-                    "created": 1749865888500,
-                    "text": "服务services",
-                    "expandState": "expand",
-                    "note": "定义为功能模块，有区别于业务层的服务，业务层的服务通常定义为业务的聚合，而系统层面的服务则是系统功能的一个聚合，可能是自身功能的一个大杂烩，也有可能是使用三方功能实现的一整套逻辑",
-                    "layout": null
-                },
-                "children": [
-                    {
-                        "data": {
-                            "id": "da56ndx0no00",
-                            "created": 1748170293463,
-                            "text": "无头浏览器headlessBrowser",
-                            "layout": null,
-                            "expandState": "expand"
-                        },
-                        "children": []
-                    }
-                ]
             },
             {
                 "data": {
@@ -441,6 +399,80 @@
             },
             {
                 "data": {
+                    "id": "dd4y7stgpm80",
+                    "created": 1759114978514,
+                    "text": "控制台console",
+                    "expandState": "expand",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "da56o6dt0lk0",
+                    "created": 1748170355428,
+                    "text": "控制器controllers",
+                    "note": "基类控制器，项目用来继承",
+                    "layout": null,
+                    "expandState": "expand"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "dalvoriv1vc0",
+                    "created": 1749865888500,
+                    "text": "服务services",
+                    "expandState": "expand",
+                    "note": "定义为功能模块，有区别于业务层的服务，业务层的服务通常定义为业务的聚合，而系统层面的服务则是系统功能的一个聚合，可能是自身功能的一个大杂烩，也有可能是使用三方功能实现的一整套逻辑",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "da56ndx0no00",
+                            "created": 1748170293463,
+                            "text": "无头浏览器headlessBrowser",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "dc70manve0w0",
+                    "created": 1755668718149,
+                    "text": "路由router",
+                    "expandState": "expand",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "di2sc50eqw80",
+                    "created": 1777176064140,
+                    "text": "视图views",
+                    "expandState": "expand",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "di2se2bn2cg0",
+                            "created": 1777176215017,
+                            "text": "布局layout",
+                            "expandState": "expand",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
                     "id": "da56nfjv8s80",
                     "created": 1748170297021,
                     "text": "工具箱utils",
@@ -481,38 +513,6 @@
             },
             {
                 "data": {
-                    "id": "damu9r8c3o00",
-                    "created": 1749963451248,
-                    "text": "库libaray",
-                    "note": "封装的基础库",
-                    "layout": null,
-                    "expandState": "expand"
-                },
-                "children": []
-            },
-            {
-                "data": {
-                    "id": "di2sc50eqw80",
-                    "created": 1777176064140,
-                    "text": "视图views",
-                    "expandState": "expand",
-                    "layout": null
-                },
-                "children": [
-                    {
-                        "data": {
-                            "id": "di2se2bn2cg0",
-                            "created": 1777176215017,
-                            "text": "布局layout",
-                            "expandState": "expand",
-                            "layout": null
-                        },
-                        "children": []
-                    }
-                ]
-            },
-            {
-                "data": {
                     "id": "df71i2t1sns0",
                     "created": 1766639684022,
                     "text": "样式styles",
@@ -544,28 +544,6 @@
             },
             {
                 "data": {
-                    "id": "da5mtg52vtc0",
-                    "created": 1748215906247,
-                    "text": "自动化auto",
-                    "note": "自动化待定",
-                    "layout": null,
-                    "expandState": "expand"
-                },
-                "children": []
-            },
-            {
-                "data": {
-                    "id": "da5mt70gp9c0",
-                    "created": 1748215886377,
-                    "text": "日志logs",
-                    "note": "执行日志\n1.执行时间周期\n2.执行的输入\n3.日志内容",
-                    "layout": null,
-                    "expandState": "expand"
-                },
-                "children": []
-            },
-            {
-                "data": {
                     "id": "divvchrqxe00",
                     "created": 1780129793987,
                     "text": "dist编译目录"
@@ -591,10 +569,32 @@
                         "children": []
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "da5mt70gp9c0",
+                    "created": 1748215886377,
+                    "text": "日志logs",
+                    "note": "执行日志\n1.执行时间周期\n2.执行的输入\n3.日志内容",
+                    "layout": null,
+                    "expandState": "expand"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "da5mtg52vtc0",
+                    "created": 1748215906247,
+                    "text": "自动化auto",
+                    "note": "自动化待定",
+                    "layout": null,
+                    "expandState": "expand"
+                },
+                "children": []
             }
         ]
     },
-    "template": "default",
+    "template": "filetree",
     "theme": "fresh-blue",
     "version": "1.4.43"
 }
