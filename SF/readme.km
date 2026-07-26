@@ -10,91 +10,167 @@
         "children": [
             {
                 "data": {
-                    "id": "dd56350ap1s0",
-                    "created": 1759137182107,
-                    "text": "服务容器SF",
+                    "id": "dk83tkwyo680",
+                    "created": 1785028579823,
+                    "text": "核心 core",
                     "expandState": "expand",
                     "layout": null
                 },
                 "children": [
                     {
                         "data": {
-                            "id": "df09di0d2qo0",
-                            "created": 1765950974477,
-                            "text": "SF 定义sf框架",
-                            "expandState": "expand",
-                            "layout": null
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "df09dq2x8yw0",
-                            "created": 1765950992046,
-                            "text": "VERSION 框架版本",
-                            "expandState": "expand",
-                            "layout": null
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "df09hxjcx3k0",
-                            "created": 1765951321734,
-                            "text": "MODE 运行模式",
-                            "expandState": "expand",
-                            "layout": null
-                        },
-                        "children": []
-                    }
-                ]
-            },
-            {
-                "data": {
-                    "id": "da56mdethhs0",
-                    "created": 1748170213998,
-                    "text": "引导bootstrap",
-                    "note": "核心模块处理整个系统架构的执行逻辑\n注意点：\n1.各个模块不依赖其他模块配置\n",
-                    "layout": null,
-                    "expandState": "expand"
-                },
-                "children": [
-                    {
-                        "data": {
-                            "id": "dd1qg5150so0",
-                            "created": 1758788383263,
-                            "text": "容器container",
+                            "id": "dd56350ap1s0",
+                            "created": 1759137182107,
+                            "text": "服务容器 SF",
                             "expandState": "expand",
                             "layout": null
                         },
                         "children": [
                             {
                                 "data": {
-                                    "id": "da56moqbnr40",
-                                    "created": 1748170238638,
-                                    "text": "命令模式(cli)",
-                                    "layout": null,
+                                    "id": "df09di0d2qo0",
+                                    "created": 1765950974477,
+                                    "text": "SF 定义使用SF框架",
+                                    "expandState": "expand",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "df09dq2x8yw0",
+                                    "created": 1765950992046,
+                                    "text": "VERSION SF框架版本",
+                                    "expandState": "expand",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dk84qy1tbq80",
+                                    "created": 1785031194432,
+                                    "text": "registerErrorBoundary 注册错误边界"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "da56mdethhs0",
+                            "created": 1748170213998,
+                            "text": "引导 bootstrap",
+                            "note": "核心模块处理整个系统架构的执行逻辑\n注意点：\n1.各个模块不依赖其他模块配置\n",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dk7hzhi72a00",
+                                    "created": 1784966978167,
+                                    "text": "错误边界 errorBoundary ",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dd1qg5150so0",
+                                    "created": 1758788383263,
+                                    "text": "容器 container",
+                                    "expandState": "expand",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "da56moqbnr40",
+                                            "created": 1748170238638,
+                                            "text": "命令模式 cli",
+                                            "layout": null,
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dk7fgaqgh4w0",
+                                            "created": 1784959832290,
+                                            "text": "单例模式 singleton",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dd1qozjbwdc0",
+                                            "created": 1758789076580,
+                                            "text": "工厂模式 factory",
+                                            "expandState": "expand",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dd1ql1m8gqg0",
+                                    "created": 1758788767653,
+                                    "text": "服务提供商 providers",
+                                    "expandState": "expand",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "da56miiu6qg0",
+                                            "created": 1748170225125,
+                                            "text": "configure 配置",
+                                            "layout": null,
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dasphn6t0ps0",
+                                                    "created": 1750559323552,
+                                                    "text": "autoload 自动加载",
+                                                    "layout": null,
+                                                    "expandState": "expand"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "das8sqlkttk0",
+                                                    "created": 1750512234113,
+                                                    "text": "load 加载",
+                                                    "layout": null,
+                                                    "expandState": "expand"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dk855sx5hao0",
+                                            "created": 1785032358728,
+                                            "text": "logger 日志器"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dk85annlca00",
+                                    "created": 1785032739087,
+                                    "text": "容器实例 app",
                                     "expandState": "expand"
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "dd1qozjbwdc0",
-                                    "created": 1758789076580,
-                                    "text": "单例模式singleton",
-                                    "expandState": "expand",
-                                    "layout": null
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "dd49mg3h9pc0",
-                                    "created": 1759045598536,
-                                    "text": "容器接口containerInterface",
-                                    "expandState": "expand",
-                                    "layout": null
                                 },
                                 "children": [
                                     {
@@ -111,7 +187,7 @@
                                         "data": {
                                             "id": "dd49jd8y13s0",
                                             "created": 1759045357244,
-                                            "text": "获取接口getInstance",
+                                            "text": "getInstance获取接",
                                             "expandState": "expand",
                                             "layout": null
                                         },
@@ -123,145 +199,112 @@
                     },
                     {
                         "data": {
-                            "id": "dd1ql1m8gqg0",
-                            "created": 1758788767653,
-                            "text": "服务提供商providers",
+                            "id": "dba04ug458o0",
+                            "created": 1752315872091,
+                            "text": "项目实例 application",
                             "expandState": "expand",
-                            "layout": null
+                            "layout": null,
+                            "note": "项目实例\n1.原则上不依赖三方插件\n"
                         },
                         "children": [
                             {
                                 "data": {
-                                    "id": "da56miiu6qg0",
-                                    "created": 1748170225125,
-                                    "text": "配置(configure)",
-                                    "layout": null,
-                                    "expandState": "expand"
+                                    "id": "dd1o1dm9zoo0",
+                                    "created": 1758781584274,
+                                    "text": "$sf 服务容器",
+                                    "expandState": "expand",
+                                    "layout": null
                                 },
-                                "children": [
-                                    {
-                                        "data": {
-                                            "id": "dasphn6t0ps0",
-                                            "created": 1750559323552,
-                                            "text": "自动加载autoload",
-                                            "layout": null,
-                                            "expandState": "expand"
-                                        },
-                                        "children": []
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "das8sqlkttk0",
-                                            "created": 1750512234113,
-                                            "text": "加载load",
-                                            "layout": null,
-                                            "expandState": "expand"
-                                        },
-                                        "children": []
-                                    }
-                                ]
+                                "children": []
                             },
                             {
                                 "data": {
-                                    "id": "dd1ruem0p3s0",
-                                    "created": 1758792322325,
-                                    "text": "topic",
+                                    "id": "db4zhfxw8p40",
+                                    "created": 1751806238355,
+                                    "text": "$mode 运行模式",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "df0966evrbk0",
+                                    "created": 1765950400685,
+                                    "text": "$rootPath 根路径",
+                                    "expandState": "expand",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "df096gxbp2w0",
+                                    "created": 1765950423568,
+                                    "text": "$appPath 应用路径",
+                                    "expandState": "expand",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "db501mli3nk0",
+                                    "created": 1751807820127,
+                                    "text": "execute 执行",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dd2jwfmp0qo0",
+                                    "created": 1758871472349,
+                                    "text": "registerProvider 注册服务提供商 ",
+                                    "expandState": "expand",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dd2kjp1i2340",
+                                    "created": 1758873295211,
+                                    "text": "setContainerInstance 设置容器实例",
                                     "expandState": "expand",
                                     "layout": null
                                 },
                                 "children": []
                             }
                         ]
-                    },
-                    {
-                        "data": {
-                            "id": "dag3kdjt9zs0",
-                            "created": 1749278753766,
-                            "text": "异常捕获(Exceptions)",
-                            "layout": null,
-                            "expandState": "expand"
-                        },
-                        "children": []
                     }
                 ]
             },
             {
                 "data": {
-                    "id": "dba04ug458o0",
-                    "created": 1752315872091,
-                    "text": "项目实例app",
-                    "expandState": "expand",
-                    "layout": null,
-                    "note": "项目实例\n1.原则上不依赖三方插件\n"
+                    "id": "dk843uz77ds0",
+                    "created": 1785029385368,
+                    "text": "错误边界 errorBoundaries",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "dk7bbnlfiqo0",
+                    "created": 1784948184024,
+                    "text": "异常 exceptions",
+                    "layout": null
                 },
                 "children": [
                     {
                         "data": {
-                            "id": "dd1o1dm9zoo0",
-                            "created": 1758781584274,
-                            "text": "$sf 服务容器",
-                            "expandState": "expand",
-                            "layout": null
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "db4zhfxw8p40",
-                            "created": 1751806238355,
-                            "text": "$mode 运行模式",
+                            "id": "dk7bd1kx3vk0",
+                            "created": 1784948292832,
+                            "text": "baseException 基础异常",
                             "layout": null,
-                            "expandState": "expand"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "df0966evrbk0",
-                            "created": 1765950400685,
-                            "text": "$rootPath 根路径",
-                            "expandState": "expand",
-                            "layout": null
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "df096gxbp2w0",
-                            "created": 1765950423568,
-                            "text": "$appPath 应用路径",
-                            "expandState": "expand",
-                            "layout": null
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "db501mli3nk0",
-                            "created": 1751807820127,
-                            "text": "执行execute",
-                            "layout": null,
-                            "expandState": "expand"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "dd2jwfmp0qo0",
-                            "created": 1758871472349,
-                            "text": "注册服务提供商  registerProvider",
-                            "expandState": "expand",
-                            "layout": null
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "dd2kjp1i2340",
-                            "created": 1758873295211,
-                            "text": "设置容器实例  setContainerInstance",
-                            "expandState": "expand",
-                            "layout": null
+                            "note": "abstract"
                         },
                         "children": []
                     }
@@ -271,7 +314,7 @@
                 "data": {
                     "id": "da56myap1w80",
                     "created": 1748170259461,
-                    "text": "中间件middleware",
+                    "text": "中间件 middleware",
                     "note": "中间件,就是传统意义上的中间件，在主流程之前、之中或之后插入的可复用处理逻辑”，负责对流程进行增强、过滤、代理、转换等操作",
                     "expandState": "expand",
                     "layout": null
@@ -281,7 +324,7 @@
                         "data": {
                             "id": "da56n5trzjc0",
                             "created": 1748170275853,
-                            "text": "请求 request",
+                            "text": "request 请求",
                             "layout": null,
                             "expandState": "expand"
                         },
@@ -291,7 +334,7 @@
                         "data": {
                             "id": "da56n93bclk0",
                             "created": 1748170282960,
-                            "text": "响应 response",
+                            "text": "response 响应 ",
                             "layout": null,
                             "expandState": "expand"
                         },
@@ -301,7 +344,7 @@
                         "data": {
                             "id": "da56nbgllyo0",
                             "created": 1748170288117,
-                            "text": "验证器 validator",
+                            "text": "validator 验证器",
                             "note": "验证组数据",
                             "layout": null,
                             "expandState": "expand"
@@ -314,7 +357,7 @@
                 "data": {
                     "id": "damu9r8c3o00",
                     "created": 1749963451248,
-                    "text": "库libaray",
+                    "text": "库 libaray",
                     "note": "封装的基础库",
                     "layout": null,
                     "expandState": "expand"
@@ -323,9 +366,113 @@
             },
             {
                 "data": {
+                    "id": "dd4y7stgpm80",
+                    "created": 1759114978514,
+                    "text": "控制台 console",
+                    "expandState": "expand",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "da56o6dt0lk0",
+                    "created": 1748170355428,
+                    "text": "控制器 controllers",
+                    "note": "基类控制器，项目用来继承",
+                    "layout": null,
+                    "expandState": "expand"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "dalvoriv1vc0",
+                    "created": 1749865888500,
+                    "text": "服务 services",
+                    "expandState": "expand",
+                    "note": "定义为功能模块，有区别于业务层的服务，业务层的服务通常定义为业务的聚合，而系统层面的服务则是系统功能的一个聚合，可能是自身功能的一个大杂烩，也有可能是使用三方功能实现的一整套逻辑",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "dc70manve0w0",
+                    "created": 1755668718149,
+                    "text": "路由 router",
+                    "expandState": "expand",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "di2sc50eqw80",
+                    "created": 1777176064140,
+                    "text": "视图 views",
+                    "expandState": "expand",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "di2se2bn2cg0",
+                            "created": 1777176215017,
+                            "text": "布局 layout",
+                            "expandState": "expand",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "da56nfjv8s80",
+                    "created": 1748170297021,
+                    "text": "工具箱 utils",
+                    "note": "工具箱是个人定义的一些基础函数，这些功能往往是最底层的操作，common是系统层的函数汇总",
+                    "layout": null,
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "di2uxb32ms00",
+                            "created": 1777183365229,
+                            "text": "全局函数 global",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "da56nj2vw000",
+                            "created": 1748170304702,
+                            "text": "公共函数 common",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "da56nm46jao0",
+                            "created": 1748170311310,
+                            "text": "科学计算 sciCompute",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
                     "id": "dbtenf0mr340",
                     "created": 1754286462137,
-                    "text": "常量constants",
+                    "text": "常量 constants",
                     "note": "常量集合",
                     "expandState": "expand",
                     "layout": null
@@ -348,7 +495,7 @@
                 "data": {
                     "id": "dbteo6oe4fs0",
                     "created": 1754286522347,
-                    "text": "类型types",
+                    "text": "类型 types",
                     "note": "类型集合",
                     "expandState": "expand",
                     "layout": null
@@ -358,7 +505,7 @@
                         "data": {
                             "id": "denbolju2nc0",
                             "created": 1764637206974,
-                            "text": "types额外类型",
+                            "text": "types 额外类型",
                             "expandState": "expand",
                             "layout": null
                         },
@@ -368,7 +515,7 @@
                         "data": {
                             "id": "denbq4bbaq80",
                             "created": 1764637326182,
-                            "text": "global重构类型",
+                            "text": "global 重构类型",
                             "expandState": "expand",
                             "layout": null
                         },
@@ -378,7 +525,7 @@
                         "data": {
                             "id": "denbqbb3fg80",
                             "created": 1764637341406,
-                            "text": "router路由类型",
+                            "text": "router 路由类型",
                             "note": "declare namespace Router {\n    namespace Root {\n        interface Route {\n            name: string;   // 名字\n            label: string;  // 标签\n            path: Href;   // 路径\n            redirect?: string;  // 重定向\n            disabled?: boolean; // 是否禁用\n            hidden?: boolean; // 是否隐藏\n            icon?: string;  // 图标\n            focusedIcon?: string;   // 焦点图标\n            children?: Route[]; // 子路由\n            meta?: MetaRoute | Record<any>;  // 业务级元数据\n        }\n\n        interface MetaRoute {\n            title?: string, // 标题\n            icon?: any, // icon\n            cache?: boolean,  // 缓存\n            roles: string[],    // 所属角色\n        }\n    }\n}\n",
                             "expandState": "expand",
                             "layout": null
@@ -387,125 +534,29 @@
                     },
                     {
                         "data": {
+                            "id": "dk7b5qu5a5c0",
+                            "created": 1784947720896,
+                            "text": "request 请求",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
                             "id": "di2soz6m6000",
                             "created": 1777177070188,
-                            "text": "response响应",
+                            "text": "response 响应",
                             "expandState": "expand",
                             "layout": null
-                        },
-                        "children": []
-                    }
-                ]
-            },
-            {
-                "data": {
-                    "id": "dd4y7stgpm80",
-                    "created": 1759114978514,
-                    "text": "控制台console",
-                    "expandState": "expand",
-                    "layout": null
-                },
-                "children": []
-            },
-            {
-                "data": {
-                    "id": "da56o6dt0lk0",
-                    "created": 1748170355428,
-                    "text": "控制器controllers",
-                    "note": "基类控制器，项目用来继承",
-                    "layout": null,
-                    "expandState": "expand"
-                },
-                "children": []
-            },
-            {
-                "data": {
-                    "id": "dalvoriv1vc0",
-                    "created": 1749865888500,
-                    "text": "服务services",
-                    "expandState": "expand",
-                    "note": "定义为功能模块，有区别于业务层的服务，业务层的服务通常定义为业务的聚合，而系统层面的服务则是系统功能的一个聚合，可能是自身功能的一个大杂烩，也有可能是使用三方功能实现的一整套逻辑",
-                    "layout": null
-                },
-                "children": [
-                    {
-                        "data": {
-                            "id": "da56ndx0no00",
-                            "created": 1748170293463,
-                            "text": "无头浏览器headlessBrowser",
-                            "layout": null,
-                            "expandState": "expand"
-                        },
-                        "children": []
-                    }
-                ]
-            },
-            {
-                "data": {
-                    "id": "dc70manve0w0",
-                    "created": 1755668718149,
-                    "text": "路由router",
-                    "expandState": "expand",
-                    "layout": null
-                },
-                "children": []
-            },
-            {
-                "data": {
-                    "id": "di2sc50eqw80",
-                    "created": 1777176064140,
-                    "text": "视图views",
-                    "expandState": "expand",
-                    "layout": null
-                },
-                "children": [
-                    {
-                        "data": {
-                            "id": "di2se2bn2cg0",
-                            "created": 1777176215017,
-                            "text": "布局layout",
-                            "expandState": "expand",
-                            "layout": null
-                        },
-                        "children": []
-                    }
-                ]
-            },
-            {
-                "data": {
-                    "id": "da56nfjv8s80",
-                    "created": 1748170297021,
-                    "text": "工具箱utils",
-                    "note": "工具箱是个人定义的一些基础函数，这些功能往往是最底层的操作，common是系统层的函数汇总",
-                    "layout": null,
-                    "expandState": "expand"
-                },
-                "children": [
-                    {
-                        "data": {
-                            "id": "di2uxb32ms00",
-                            "created": 1777183365229,
-                            "text": "全局函数global"
                         },
                         "children": []
                     },
                     {
                         "data": {
-                            "id": "da56nj2vw000",
-                            "created": 1748170304702,
-                            "text": "公共函数common",
-                            "layout": null,
-                            "expandState": "expand"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "da56nm46jao0",
-                            "created": 1748170311310,
-                            "text": "科学计算sciCompute",
-                            "layout": null,
-                            "expandState": "expand"
+                            "id": "dk7b5ukth9c0",
+                            "created": 1784947729039,
+                            "text": "exception 异常",
+                            "layout": null
                         },
                         "children": []
                     }
@@ -515,7 +566,7 @@
                 "data": {
                     "id": "df71i2t1sns0",
                     "created": 1766639684022,
-                    "text": "样式styles",
+                    "text": "样式 styles",
                     "expandState": "expand",
                     "layout": null
                 },
@@ -525,7 +576,7 @@
                 "data": {
                     "id": "ddcuz69bom80",
                     "created": 1759918318817,
-                    "text": "国际化i18n",
+                    "text": "国际化 i18n",
                     "expandState": "expand",
                     "layout": null
                 },
@@ -546,7 +597,8 @@
                 "data": {
                     "id": "divvchrqxe00",
                     "created": 1780129793987,
-                    "text": "dist编译目录"
+                    "text": "编译 dist",
+                    "layout": null
                 },
                 "children": []
             },
@@ -554,15 +606,16 @@
                 "data": {
                     "id": "djgxb6gj3bs0",
                     "created": 1782268092310,
-                    "text": "public公共目录",
-                    "expandState": "expand"
+                    "text": "公共 public",
+                    "expandState": "expand",
+                    "layout": null
                 },
                 "children": [
                     {
                         "data": {
                             "id": "df6zfloe1ug0",
                             "created": 1766633847786,
-                            "text": "静态资源assets",
+                            "text": "静态资源 assets",
                             "expandState": "expand",
                             "layout": null
                         },
@@ -574,19 +627,8 @@
                 "data": {
                     "id": "da5mt70gp9c0",
                     "created": 1748215886377,
-                    "text": "日志logs",
+                    "text": "日志 logs",
                     "note": "执行日志\n1.执行时间周期\n2.执行的输入\n3.日志内容",
-                    "layout": null,
-                    "expandState": "expand"
-                },
-                "children": []
-            },
-            {
-                "data": {
-                    "id": "da5mtg52vtc0",
-                    "created": 1748215906247,
-                    "text": "自动化auto",
-                    "note": "自动化待定",
                     "layout": null,
                     "expandState": "expand"
                 },
@@ -594,7 +636,7 @@
             }
         ]
     },
-    "template": "filetree",
+    "template": "right",
     "theme": "fresh-blue",
     "version": "1.4.43"
 }
