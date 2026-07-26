@@ -71,9 +71,43 @@
                                     "id": "dk7hzhi72a00",
                                     "created": 1784966978167,
                                     "text": "错误边界 errorBoundary ",
-                                    "layout": null
+                                    "layout": null,
+                                    "note": "{\n\tcode: '错误代码',\n    statusCode: '状态吗码',\n    message\n}"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dk8je9ydq140",
+                                            "created": 1785072518260,
+                                            "text": "errorId 错误id"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dk8j0hple940",
+                                            "created": 1785071438045,
+                                            "text": "errorCode 错误代码"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dk8j0q3tprc0",
+                                            "created": 1785071456319,
+                                            "text": "errorStatus 错误状态码"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dk8j0wxu4gg0",
+                                            "created": 1785071471195,
+                                            "text": "errorMessage 错误信息"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             },
                             {
                                 "data": {
@@ -306,7 +340,40 @@
                             "layout": null,
                             "note": "abstract"
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dk8je416xgo0",
+                                    "created": 1785072505369,
+                                    "text": "traceId 异常id"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dk8j13hsgo00",
+                                    "created": 1785071485462,
+                                    "text": "code 异常代码"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dk8j197uv8g0",
+                                    "created": 1785071497922,
+                                    "text": "status 异常状态码"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dk8j1gwedyg0",
+                                    "created": 1785071514644,
+                                    "text": "message 异常信息"
+                                },
+                                "children": []
+                            }
+                        ]
                     }
                 ]
             },
@@ -324,7 +391,7 @@
                         "data": {
                             "id": "da56n5trzjc0",
                             "created": 1748170275853,
-                            "text": "request 请求",
+                            "text": "请求 request",
                             "layout": null,
                             "expandState": "expand"
                         },
@@ -334,7 +401,7 @@
                         "data": {
                             "id": "da56n93bclk0",
                             "created": 1748170282960,
-                            "text": "response 响应 ",
+                            "text": "响应 response",
                             "layout": null,
                             "expandState": "expand"
                         },
@@ -344,7 +411,7 @@
                         "data": {
                             "id": "da56nbgllyo0",
                             "created": 1748170288117,
-                            "text": "validator 验证器",
+                            "text": "验证器 validator",
                             "note": "验证组数据",
                             "layout": null,
                             "expandState": "expand"
