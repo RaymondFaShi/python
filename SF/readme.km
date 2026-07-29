@@ -591,6 +591,23 @@
                     },
                     {
                         "data": {
+                            "id": "dkay0piz0q80",
+                            "created": 1785316891621,
+                            "text": "error 错误"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dk7b5ukth9c0",
+                            "created": 1784947729039,
+                            "text": "exception 异常",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
                             "id": "denbqbb3fg80",
                             "created": 1764637341406,
                             "text": "router 路由类型",
@@ -615,15 +632,6 @@
                             "created": 1777177070188,
                             "text": "response 响应",
                             "expandState": "expand",
-                            "layout": null
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "dk7b5ukth9c0",
-                            "created": 1784947729039,
-                            "text": "exception 异常",
                             "layout": null
                         },
                         "children": []
