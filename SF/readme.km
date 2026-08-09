@@ -318,6 +318,15 @@
             },
             {
                 "data": {
+                    "id": "dkk9yhpjkxc0",
+                    "created": 1786264610804,
+                    "text": "traceId 链式id",
+                    "note": "当前执行的唯一id"
+                },
+                "children": []
+            },
+            {
+                "data": {
                     "id": "dk843uz77ds0",
                     "created": 1785029385368,
                     "text": "错误边界 errorBoundaries",
