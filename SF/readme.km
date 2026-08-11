@@ -475,6 +475,14 @@
             },
             {
                 "data": {
+                    "id": "dklq0777la80",
+                    "created": 1786411442371,
+                    "text": "配置 config"
+                },
+                "children": []
+            },
+            {
+                "data": {
                     "id": "dd4y7stgpm80",
                     "created": 1759114978514,
                     "text": "控制台 console",
