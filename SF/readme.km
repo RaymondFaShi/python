@@ -320,10 +320,38 @@
                 "data": {
                     "id": "dkk9yhpjkxc0",
                     "created": 1786264610804,
-                    "text": "traceId 链式id",
-                    "note": "当前执行的唯一id"
+                    "text": "链式追踪",
+                    "note": null
                 },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "dknkhc16c0w0",
+                            "created": 1786598978335,
+                            "text": "clientId 客户端id",
+                            "note": "当前客户端请求id，属于当前的会话id"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dknkhkcpv6g0",
+                            "created": 1786598996447,
+                            "text": "requestId 请求id",
+                            "note": "发起请求的id，用于判断请求的唯一性"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dknkhox1sjs0",
+                            "created": 1786599006384,
+                            "text": "traceId 链式id",
+                            "note": "请求后链式追踪id"
+                        },
+                        "children": []
+                    }
+                ]
             },
             {
                 "data": {
