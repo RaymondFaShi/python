@@ -383,7 +383,8 @@
                                 "data": {
                                     "id": "dk8je416xgo0",
                                     "created": 1785072505369,
-                                    "text": "traceId 链式id"
+                                    "text": "traceId 链式id",
+                                    "note": null
                                 },
                                 "children": []
                             },
