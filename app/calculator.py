@@ -44,7 +44,7 @@ class Calculator:
         try:
             # 除法字符格式化
             expression = self.__previewLabel.replace( '÷', '/' );
-            self.__resultLabel = str( sympify( expression ) );
+            self.__resultLabel = str( sympify( expression ).evalf() );
 
             # 去后面多余的0
             if( '.' in self.__resultLabel ):
@@ -53,8 +53,8 @@ class Calculator:
             winForm.resultLabel.setText( str( self.__resultLabel ) );
         except ZeroDivisionError as ex:
             QMessageBox.critical( winForm, '计算错误', '除数不能为0' );
-        except:
-            QMessageBox.critical( winForm, '计算错误', '计算公式错误' );
+        # except:
+        #     QMessageBox.critical( winForm, '计算错误', '计算公式错误' );
         
 
     # 重置
