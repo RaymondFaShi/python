@@ -111,3 +111,24 @@
 # pe._ne = 'ta'
 # print( dir( object ) );
 
+# class A:
+#     height = 100;
+#     _instance = None;
+
+#     def __new__( cls ):
+#         if( cls._instance is None ):
+#             cls._instance = super().__new__( cls );
+#         return cls._instance;
+
+# t = A();
+# t2 = A();
+# t2.height = 200;
+# print( t.height );
+
+# class A:
+#     height = 100;
+#     @classmethod
+#     def test( cls ):
+#         print( cls.height );
+
+# print( A.test() );
