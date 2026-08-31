@@ -1,15 +1,12 @@
 '''
     bootstrap 入口程序
 '''
+import sys;
 from PySide6.QtWidgets import QApplication, QMessageBox;
 from app.bootstrap import Bootstrap;
 
 def main():
-    app = QApplication();
+    app = QApplication( sys.argv );
     bootstrap = Bootstrap();
     bootstrap.run();
-    app.exec();
-
-
-
-    
+    return app.exec();
