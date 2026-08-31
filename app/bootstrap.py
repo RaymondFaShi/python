@@ -1,11 +1,10 @@
 '''
     启动程序
 '''
-import sys;
 from PySide6.QtWidgets import QMessageBox;
 from PySide6.QtUiTools import QUiLoader;
-from pathlib import Path;
 from app.calculator import Calculator;
+from app.common import resourcePath;
 
 class Bootstrap:
 
@@ -17,16 +16,10 @@ class Bootstrap:
     # construct
     def __init__( self ):
         # ui路径
-        uiFilePath = resource_path("app/calculator.ui")
-        # print( uiFilePath );
-        print("frozen:", getattr(sys, "frozen", False))
-        print("MEIPASS:", getattr(sys, "_MEIPASS", None))
-        print("UI:", uiFilePath)
-        print("exists:", uiFilePath.exists())
-
+        uiFilePath = resourcePath( "app/calculator.ui" );
 
         # 载入ui文件
-        self.mainWindow = QUiLoader().load( str( uiFilePath ) );
+        self.mainWindow = QUiLoader().load( uiFilePath );
 
         # previewLabel调整
         self.mainWindow.previewLabel.setStyleSheet(
@@ -75,8 +68,3 @@ class Bootstrap:
     def run( self ):
         self.mainWindow.show();
 
-def resource_path(relative_path: str) -> Path:
-    if getattr(sys, "frozen", False):
-        return Path(sys._MEIPASS) / relative_path
-
-    return Path(__file__).resolve().parent.parent / relative_path
