@@ -44,13 +44,13 @@ class Calculator:
         try:
             # 除法字符格式化
             expression = self.__previewLabel.replace( '÷', '/' );
-            self.__resultLabel = str( sympify( expression ).evalf() );
+            self.__resultLabel = str( round( sympify( expression ).evalf(), 8 ) );
 
             # 去后面多余的0
             if( '.' in self.__resultLabel ):
                 self.__resultLabel = self.__resultLabel.rstrip( "0" ).rstrip( "." );
             
-            winForm.resultLabel.setText( str( self.__resultLabel ) );
+            winForm.resultLabel.setText( str(  self.__resultLabel ) );
         except ZeroDivisionError as ex:
             QMessageBox.critical( winForm, '计算错误', '除数不能为0' );
         # except:
