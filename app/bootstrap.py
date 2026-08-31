@@ -19,6 +19,12 @@ class Bootstrap:
         # ui路径
         uiFilePath = resource_path("app/calculator.ui")
         # print( uiFilePath );
+        print("frozen:", getattr(sys, "frozen", False))
+        print("MEIPASS:", getattr(sys, "_MEIPASS", None))
+        print("UI:", uiFilePath)
+        print("exists:", uiFilePath.exists())
+
+
         # 载入ui文件
         self.mainWindow = QUiLoader().load( str( uiFilePath ) );
 
