@@ -20,7 +20,7 @@ class Bootstrap:
         uiFilePath = resource_path("app/calculator.ui")
         # print( uiFilePath );
         # 载入ui文件
-        self.mainWindow = QUiLoader().load( uiFilePath );
+        self.mainWindow = QUiLoader().load( str( uiFilePath ) );
 
         # previewLabel调整
         self.mainWindow.previewLabel.setStyleSheet(
