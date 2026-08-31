@@ -17,7 +17,7 @@ class Bootstrap:
     # construct
     def __init__( self ):
         # ui路径
-        uiFilePath = Path(__file__).resolve().parent/ "calculator.ui";
+        uiFilePath = resource_path("app/calculator.ui")
         # print( uiFilePath );
         # 载入ui文件
         self.mainWindow = QUiLoader().load( uiFilePath );
@@ -68,3 +68,9 @@ class Bootstrap:
     # 运行程序
     def run( self ):
         self.mainWindow.show();
+
+def resource_path(relative_path: str) -> Path:
+    if getattr(sys, "frozen", False):
+        return Path(sys._MEIPASS) / relative_path
+
+    return Path(__file__).resolve().parent.parent / relative_path
