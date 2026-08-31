@@ -1,6 +1,7 @@
 '''
     启动程序
 '''
+import sys;
 from PySide6.QtWidgets import QMessageBox;
 from PySide6.QtUiTools import QUiLoader;
 from pathlib import Path;
@@ -16,7 +17,7 @@ class Bootstrap:
     # construct
     def __init__( self ):
         # ui路径
-        uiFilePath =  Path(__file__).resolve().parent/ "calculator.ui";
+        uiFilePath = Path(__file__).resolve().parent/ "calculator.ui";
         # print( uiFilePath );
         # 载入ui文件
         self.mainWindow = QUiLoader().load( uiFilePath );
@@ -67,4 +68,3 @@ class Bootstrap:
     # 运行程序
     def run( self ):
         self.mainWindow.show();
-        
